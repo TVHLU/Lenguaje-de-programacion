@@ -1,0 +1,21 @@
+package Aplicaciones;
+import java.util.Scanner;
+public class Ejemplo04 {
+public static void main(String[] args) {
+Scanner teclado = new Scanner (System.in);
+float altura, peso, IMC;
+
+System.err.print(&quot;Ingrese su altura:&quot;);
+altura= Float.parseFloat(teclado.nextLine());
+System.err.print(&quot;Ingrese su peso:&quot;);
+peso= Float.parseFloat(teclado.nextLine());
+
+IMC=peso/(altura*altura);
+
+System.out.println(&quot; ----IMC----:&quot;);
+System.err.println(&quot;La altura es: &quot; + altura);
+System.err.println(&quot;El peso es :&quot; + peso);
+System.err.println(&quot;El IMC es :&quot;+ IMC);
+
+}
+}
