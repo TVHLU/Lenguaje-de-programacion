@@ -1,0 +1,25 @@
+RAMA:
+package Aplicaciones;
+import java.util.Scanner;
+public class Ejemplo07 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float r, h, A, V, pi;
+        pi = 3.141592 ;
+        
+        System.out.println("Calcular el area y volumen de un cilindro");
+        System.out.print("Ingrese el radio de la base: ");
+        r = Float.parseFloat(teclado.nextLine());
+        System.out.print("Ingrese la altura del cilindro: ");
+        h = Float.parseFloat(teclado.nextLine());
+        
+        A = 2*pi*r*(r + h);
+        V = pi*(r*r)*h;
+        
+        System.out.println("El radio de la base de su cilindro es: " + r + " m");
+        System.out.println("La altura de su cilindro es: " + h + " m");
+         System.out.println("El área de su cilindro es: " + A + " m²")
+        System.out.println("El volumen de su cilindro es: " + V + " m³");
+    } 
+}
+
