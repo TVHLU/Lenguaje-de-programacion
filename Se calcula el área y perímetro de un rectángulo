@@ -1,0 +1,23 @@
+package Aplicaciones;
+import java.util.Scanner;
+        
+public class Ejemplo06 {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        float b, A, h, P;
+        
+        System.out.print("Ingrese base: ");
+        b = Float.parseFloat(teclado.nextLine());
+        System.out.print("Ingrese altura: ");
+        h = Float.parseFloat(teclado.nextLine());
+        
+        A = b * h;
+        P = (b + h) * 2;
+        
+        System.out.println("---Resultado---");
+        System.out.println("La base es: " +  b);
+        System.out.println("La altura es: " +  h);
+        System.out.println("El area es: " + A);
+        System.out.println("El perimetro es: " + P);
+    }
+}
