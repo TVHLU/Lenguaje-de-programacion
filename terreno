@@ -1,0 +1,20 @@
+package Aplicaciones;
+import java.util.Scanner;
+public class Ejemplo04 {
+public static void main(String[] args) {
+Scanner teclado = new Scanner (System.in);
+
+float ancho, longitud, precio metrocuadrado,area;
+
+System.err.print(&quot;:&quot;);
+altura= Float.parseFloat(teclado.nextLine());
+System.err.print(&quot;:&quot;);
+peso= Float.parseFloat(teclado.nextLine());
+
+area = longitud * ancho;
+precio = area * metroCuadrado;
+
+System.out.println(&quot;La longitud es: &quot; + longitud);
+System.out.println(&quot;El ancho es: &quot; + ancho);
+System.out.println(
+}
